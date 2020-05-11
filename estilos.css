@@ -1,0 +1,35 @@
+body {
+    background-image: 
+  url('https://i.pinimg.com/564x/a9/e5/76/a9e576957fc8513a57d3857e8e603c81.jpg');
+    background-size: auto 100vh;
+    height: 100vh;
+    font-style: italic;
+  }
+  .menu{
+    background: #FFB6C1;
+  }
+   .menu ul {
+    display:flex;
+    justify-content: space-around;
+  }
+  .menu li {
+   list-style: none;
+  }
+  a {
+   color: #000000;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .site-title,
+  .site-subtitle {
+    text-align: center;
+      -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
+      backdrop-filter: blur(10px); /* Chrome and Opera */
+      background-color: rgba(299, 255, 255, 0.3);
+  }
+  .site-subtitle{
+    color:#696969
+  }
+  
